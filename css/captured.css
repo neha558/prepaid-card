@@ -1,0 +1,497 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.dashboard-details{
+    width: 11.3rem;
+height: 2.0rem;
+background: #334A79;
+/* opacity: 0.2; */
+border-radius: 0.5rem;
+margin-left: 3.8rem;
+
+}
+
+div.dashboard-details > div{
+    width: 8.7rem;
+height: 1.2rem;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 1.0rem;
+line-height: 1.2rem;
+text-align: right;
+
+color: #FFFFFF;
+opacity: 0.4;
+}
+
+div.dashboard-details div > div.flag{
+    font-weight: bold;
+    opacity: 1;
+}
+
+div.detail-wrapper{
+    height: 100%;
+    width: 100%;
+}
+
+.member-info{
+    margin: 2.9rem 4.5rem 2.9rem 3.5rem;
+    width: 58.7rem;
+    /* background-color: #001D58;  */
+}
+
+.bigline{
+    padding: 8.6rem 0;
+}
+
+.member-card{
+    width: 27.5rem;
+height: 39.7rem;
+background:  rgba(0, 50, 150, 0.1);
+border-radius: 0.9rem;
+}
+
+.profile-pic > img{
+    margin: 1.2rem 0.9rem 0 1rem;
+    width: 25.6rem;
+    height: 21.1rem;
+    border-radius: 0.3rem;
+}
+
+.profile-details {
+     margin: 1.2rem 0.9rem 0 1rem;
+    width: 25.6rem;
+    height: 17.4rem;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 1.2rem;
+line-height: 1.5rem;
+/* identical to box height */
+
+letter-spacing: 0.04em;
+
+color: #001D58;
+}
+
+.profile-details > div.name, .info-card > div.name{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+}
+
+.info-card{
+    width: 24.3rem;
+height: 10.9rem;
+background: rgba(0, 50, 150, 0.05);
+border-radius: 0.9rem;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 1.2rem;
+line-height: 1.5rem;
+/* identical to box height */
+
+letter-spacing: 0.04em;
+
+color: #001D58;
+padding-left: 1.4rem;
+
+}
+
+.info-card-tgs, .info-card-tgl{
+    margin-left: 3.0rem;
+    margin-bottom: 3.8rem;
+}
+
+.info-card-coach{
+    margin-left: 3.0rem;
+}
+
+.name > span.captured-div{
+    font-size: 0.9rem;
+line-height: 1.1rem;
+width: fit-content;
+}
+
+.info-card > div.card-name{
+font-weight: 500;
+font-size: 1.0rem;
+line-height: 1.2rem;
+
+color: #003296;
+}
+
+.comments{
+    margin-top: 1.5rem;
+}
+
+.comment-text{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.055em;
+    color: #001D58;
+    margin-top: 0.7rem;
+}
+
+.comments > div.captured-div{
+    width: fit-content;
+}
+
+.image-header{
+    width: 13.6rem;
+    height: 2rem;
+    background: rgba(0, 50, 150, 0.1);
+    border-radius: 0.5rem;
+}
+
+.image-header > .header-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.0rem;
+    line-height: 1.2rem;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #003296;
+}
+
+.thumb-image > img{
+    width: 13.6rem;
+    height: 11.6rem;
+    margin-top: 1.3rem;
+    border-radius: 1.2rem;
+}
+
+#large-image-pbf > img.modal-image{
+    width:42.2rem;
+    height:36.0rem;
+    border-radius: 1.2rem;
+}
+
+#large-image-rp > img.modal-image{
+    width:42.2rem;
+    height:36.0rem;
+    border-radius: 1.2rem;
+}
+
+#large-image-pfp > img.modal-image{
+    width:42.2rem;
+    height:36.0rem;
+    border-radius: 1.2rem;
+}
+
+.modal-button{
+    width: 11.5rem;
+    height: 4.9rem;
+    border: 0.2rem solid #003296;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #003296;
+}
+
+a > .modal-button {
+    color: #003296;
+    text-transform: uppercase; 
+}
+
+.modal-button img{
+    margin-right: 1.3rem;
+}
+
+.select-button{
+    background: #329632;
+    width: 12.3rem;
+    border: none;
+}
+
+.selected{
+    background: #FF5252;
+    width: 13.2rem;
+    border: none;
+}
+
+.header-selected{
+    background: rgba(50, 150, 50, 0.1);
+    color: #329632;
+    width: 13.2rem;
+    border: none;
+}
+
+.header-selected-text{
+    color: #329632 !important;
+}
+
+a > .select-button, a> .selected {
+    color: #FFFFFF;
+}
+
+.view-image{
+    /* width: 5.4rem;
+    height: 2.2rem; */
+    margin-top: 0.9rem;
+}
+
+
+.image-list{
+    width: 100%;
+    margin-top: 2.9rem;
+}
+
+.view-select{
+    width: 10.0rem;
+height: 2.2rem;
+border: 0.1rem solid #003296;
+box-sizing: border-box;
+border-radius: 0.5rem;
+font-size: 1.0rem;
+line-height: 1.2rem;
+letter-spacing: 0.055em;
+align-self: center;
+color: #003296;
+}
+
+.view-select > img{
+    margin-right: 0.5rem;
+}
+
+.swal-wide{
+    width:79.0rem !important;
+    height: 58.8rem !important; 
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+
+div#large-image-pbf, div#large-image-rp, div#large-image-pfp{
+    width:100%;
+    /* height:36.0rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-top: 1.7rem; 
+    margin-bottom: 5.1rem;
+    border-radius: 1.2rem;
+    align-self: center;
+    align-items: center;
+    position: relative;
+}
+
+#large-image-pbf > div.button-group, #large-image-rp > div.button-group,#large-image-pfp > div.button-group{
+    width:42.2rem;
+    margin-top: 2.1rem;
+}
+
+.select-alert{
+    width:42.2rem;
+    height: 2.2rem;
+    margin-top: 0.8rem; 
+}
+
+.select-alert> div.selected-notice, .view-select-selected{
+    width: 7.5rem;
+    height: 2.2rem;
+    border: 0.1rem solid #329632;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    font-size: 1.0rem;
+    line-height: 1.2rem;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color:  #329632;
+    /* display: none; */
+
+}
+
+div.selected-notice img{
+    margin-right: 0.6rem;
+}
+
+.next-container{
+    position: absolute;
+right: 4.7rem;
+top: 20.0rem;
+}
+.next-image, .previous-image{
+    width: 1.9rem;
+    height: 3.0rem;
+    margin-bottom: 1.1rem;
+}
+.next{
+    width: 6.9rem;
+    height: 2.0rem;
+    background: rgba(0, 50, 150, 0.1);
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #003296;
+}
+
+.previous-container{
+    position: absolute;
+left: 4.7rem;
+top: 20.0rem;
+}
+
+.previous{
+    width: 6.9rem;
+    height: 2.0rem;
+    background: rgba(0, 50, 150, 0.1);
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #003296;
+}
+
+.previous-inactive, .next-inactive{
+    opacity: 0.4;
+}
+
+
+/* Form */
+
+select, textarea{
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 5px;
+width: 60.1rem;
+height: 5.1rem;
+padding-left: 1.6rem;
+}
+
+select, textarea{
+    outline: none !important;
+   border: 2.0px solid #003296;
+}
+
+.myInput{
+    padding-right: 1.6rem;
+}
+
+.myInput:focus::-webkit-input-placeholder {
+  visibility:hidden; /*hide placeholder on focus*/
+}
+
+.myInput-label {
+  
+  font-size:1.2rem;
+  color:#003296;
+  font-family:Montserrat;
+  background-color: #fff;
+  padding: 0 3px;
+
+}
+
+/*style of label when input is focused*/
+.myInput + .myInput-label  {
+  display: inline-block;
+  position:absolute;
+  left: 7.5rem;
+  top:2.2rem;
+}
+
+.myInput2:focus::-webkit-input-placeholder {
+  visibility:hidden; /*hide placeholder on focus*/
+}
+
+.myInput2-label {
+  
+  font-size:1.2rem;
+  color:#003296;
+  font-family:Montserrat;
+  background-color: #fff;
+  padding: 0 0.3rem;
+
+}
+
+/*style of label when input is focused*/
+.myInput2 + .myInput2-label  {
+  display: inline-block;
+  position:absolute;
+  left: 7.5rem;
+  top:10.3rem;
+}
+
+.myInput2{
+    height: 8.5rem;
+    font-size: 1.2rem;
+    padding-top: 0.8rem;
+}
+
+.form-part{
+    position: relative;
+    margin-top: 0.4rem;
+    width:100% ;
+
+}
+
+.form-part form{
+    width:100%;
+}
+
+#submit{
+    width: 20.6rem;
+    height: 5.0rem;
+    background: #003296;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    font-family: Montserrat;
+    margin-top: 7.7rem;
+    align-self: center;
+}
+
+.yes-button{
+    width: 6.5rem;
+    height: 3.8rem;
+    background: #003296 !important;
+    border-radius: 0.5rem; 
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.no-button{
+    width: 6.5rem;
+    height: 3.8rem;
+    border: 0.2rem solid #003296;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.1em;
+    color: #003296 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10.8rem;
+}
+
+.back-home-button{
+    width: 20.6rem;
+    height: 5.0rem;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    background: #003296 !important;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+
+}

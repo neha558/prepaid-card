@@ -1,0 +1,162 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+#failed-alert-container{
+    display: none;
+    width:fit-content;
+    height: fit-content;
+}
+
+.failed-div {
+    position: absolute;
+    width: 255px;
+    height: 51px;
+    right: 21px;
+    top: 21px;
+    background: #FCF7EA;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.failed-div > span{
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    font-style: normal;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FF5252;
+
+}
+
+.failed-div > img{
+    height: 20px;
+    width: 20px;
+    margin-right: 11px; 
+}
+
+.logo {
+    width: 77.18px;
+    height: 58.13px;
+    margin-top: 80px;
+}
+
+.form-wrapper {
+    
+    margin: auto;
+    height: 100%;
+    /* height: 900px; */
+}
+
+.header {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin-top: 25px;
+    margin-bottom: 42px;
+    color: #003296;
+}
+
+form{
+    width: 305px;
+
+}
+
+input{
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 5px;
+width: 305px;
+height: 51px;
+padding-left: 20px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus{
+    outline: none !important;
+   border: 2.0px solid #003296;
+}
+
+.myInput:focus::-webkit-input-placeholder {
+  visibility:hidden; /*hide placeholder on focus*/
+}
+
+.myInput-label {
+  display: none;
+  font-size:11px;
+  color:#003296;
+  font-family:Montserrat;
+  background-color: #fff;
+  padding: 0 3px;
+
+}
+
+/*style of label when input is focused*/
+.myInput:focus + .myInput-label  {
+  display: inline-block;
+  position:absolute;
+  left: 12px;
+  top:-5px;
+}
+
+.form-input{
+    width: 305px;
+    height: 51px;
+    margin-bottom: 39px;
+    position:relative;
+}
+
+.form-input i {
+    margin-left: -40px;
+    cursor: pointer;
+    color: #C4C4C4;
+}
+
+.form-input button{
+    width: 305px;
+    height: 49px;
+    margin-bottom: 39px;
+    background: #003296;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.login-submit:hover{
+    background: #003296b4;
+    color: white;
+}
+
+.bg_logo {
+    width: 38px;
+    height: 65.03px;
+    margin-bottom: 15.14px;
+    margin-top: 47px;
+}
+
+#form-wrapper .version{
+    font-family: Montserrat;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #003296;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media(max-height: 660px){
+    .form-wrapper{
+        overflow-y: auto;
+    }
+}
